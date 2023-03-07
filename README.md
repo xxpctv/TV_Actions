@@ -10,10 +10,10 @@
 
 # TVBoxOSC
 
-
+[![Total](https://shields.io/github/downloads/wwz09/TV_Actions/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/wwz09/TV_Actions/releases)
 
 [![Download](https://img.shields.io/github/v/release/wwz09/TV_Actions?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/wwz09/TV_Actions/releases/latest) 
-[![Total](https://shields.io/github/downloads/o0HalfLife0o/TVBoxOSC/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/wwz09/TV_Actions/releases)
+
 
 ## 感谢各位大神
 
