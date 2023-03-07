@@ -1,7 +1,7 @@
 <h4 align="center">访客数 :eyes:</h4>
 
 <p align="center">
-<img  src="https://profile-counter.glitch.me/wwz09_test/count.svg" alt="Sub :: Visitor's Count" />
+<img  src="https://profile-counter.glitch.me/TV_Actions/count.svg" alt="Sub :: Visitor's Count" />
  <img width=0 height=0 src="https://profile-counter.glitch.me/wwz09/count.svg" alt="wwz09:: Visitor's Count" />
 </p>
 
@@ -12,8 +12,8 @@
 
 
 
-[![Download](https://img.shields.io/github/v/release/o0HalfLife0o/TVBoxOSC?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/o0HalfLife0o/TVBoxOSC/releases/latest) 
-[![Total](https://shields.io/github/downloads/o0HalfLife0o/TVBoxOSC/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/o0HalfLife0o/TVBoxOSC/releases)
+[![Download](https://img.shields.io/github/v/release/wwz09/TV_Actions?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/wwz09/TV_Actions/releases/latest) 
+[![Total](https://shields.io/github/downloads/o0HalfLife0o/TVBoxOSC/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/wwz09/TV_Actions/releases)
 
 ## 感谢各位大神
 
