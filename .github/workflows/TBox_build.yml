@@ -57,7 +57,7 @@ jobs:
           sed -i 's/MM月dd日/yyyy年 MM月 dd日/g' app/src/main/res/values-zh/strings.xml
           sed -i 's%TVBox%大仙TV%g' app/src/main/res/values-zh/strings.xml
           sed -i 's%com.github.tvbox.osc%com.github.tvbox.osc.${{ matrix.osName }}%g' app/build.gradle
-          sed -i 's%android:text="本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC"%android:text="自用软件，本软件所有资源来自网上, 软件仅供学习参考,请于安装后24小时内删除。 \n\n打包地址\nhttps://github.com/CatVodTVOfficial/TVBoxOSC  \n\n升级网盘\https://wwz.lanzout.com/b03765eqh\n密码：友人可知\n"%g' app/src/main/res/layout/dialog_about.xml
+          sed -i 's%\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC%\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC  \n升级网盘\https://wwz.lanzout.com/b03765eqh\n密码：友人可知\n"%g' app/src/main/res/layout/dialog_about.xml
           sed -i 's%HOME_REC, 2%HOME_REC, 0%g' app/src/main/java/com/github/tvbox/osc/base/App.java
           sed -i 's%putDefault(HawkConfig.SEARCH_VIEW, 2);    // Text or Picture%putDefault(HawkConfig.SEARCH_VIEW, 2);    // 文字或图片\n      putDefault(HawkConfig.HOME_SHOW_SOURCE, true);    // 显示首页源\n%g' app/src/main/java/com/github/tvbox/osc/base/App.java
           sed -i 's%HomeActivity.getRes().getString(R.string.app_source));% "https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json");%g' app/src/main/java/com/github/tvbox/osc/api/ApiConfig.java     
