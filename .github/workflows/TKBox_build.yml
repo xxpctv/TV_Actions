@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: 5567332
-            repoName: Box
+          - userName: clanTV
+            repoName: clanTV
             branchName: main
             appName: TKBox
             osName: t9
