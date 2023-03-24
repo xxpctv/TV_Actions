@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: a3203006
-            repoName: Box
+          - userName: breadmyth
+            repoName: television2-takagen99
             branchName: main
             appName: CSBox
             osName: cs
