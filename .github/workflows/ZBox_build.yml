@@ -12,7 +12,7 @@ jobs:
       matrix:
         include:
           - userName: wenxin8
-            repoName: Box-1
+            repoName: TVBoxOS_q215613905
             branchName: main
             appName: ZBox
             osName: t11
