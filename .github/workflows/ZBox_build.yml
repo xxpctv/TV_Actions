@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: hearofnight
-            repoName: TVBoxOS
+          - userName: 2728683891
+            repoName: Box
             branchName: main
             appName: ZBox
             osName: t11
@@ -56,11 +56,13 @@ jobs:
           cp -rf $GITHUB_WORKSPACE/DIY/png/等待图标.png app/src/main/res/drawable/icon_loading.png
           cp -rf $GITHUB_WORKSPACE/DIY/qbox/epg_data.json app/src/main/assets/epg_data.json
           cp -rf $GITHUB_WORKSPACE/DIY/png/背景5.png app/src/main/res/drawable/app_bg.png
+          cp -rf $GITHUB_WORKSPACE/DIY/tbox/TBOXdialog_about.xml app/src/main/res/layout/dialog_about.xml
           sed -i 's%com.github.tvbox.osc%com.github.tvbox.osc.${{ matrix.osName }}%g' app/build.gradle
           sed -i 's%dd MMM%dd MMM yyyy%g' app/src/main/res/values/strings.xml
           sed -i 's%TVBox%黑鸟影视%g' app/src/main/res/values/strings.xml
           sed -i 's%HOME_REC, 2%HOME_REC, 0%g' app/src/main/java/com/github/tvbox/osc/base/App.java
-          sed -i 's%HomeActivity.getRes().getString(R.string.app_source));% "https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json");%g' app/src/main/java/com/github/tvbox/osc/api/ApiConfig.java     
+          sed -i 's%putDefault(HawkConfig.SEARCH_VIEW, 2);    // Text or Picture%putDefault(HawkConfig.SEARCH_VIEW, 2);    // 文字或图片\n      putDefault(HawkConfig.HOME_SHOW_SOURCE, true);    // 显示首页源\n%g' app/src/main/java/com/github/tvbox/osc/base/App.java
+          sed -i 's%HawkConfig.API_URL, "http://");% "https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json");%g' app/src/main/java/com/github/tvbox/osc/api/ApiConfig.java     
            
       - name: Extra Modify
         if: ${{ env.commit }}
