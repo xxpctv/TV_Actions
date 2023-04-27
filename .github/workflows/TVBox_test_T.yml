@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: wxwxwz
-            repoName: Box
+          - userName: dlgt7
+            repoName: takagen99Box
             branchName: main
             appName: TBoxT
             osName: bb
