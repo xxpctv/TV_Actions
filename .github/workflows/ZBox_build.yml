@@ -60,7 +60,6 @@ jobs:
           sed -i 's%dd MMM%dd MMM yyyy%g' app/src/main/res/values/strings.xml
           sed -i 's%TVBox%黑鸟影视%g' app/src/main/res/values/strings.xml
           sed -i 's%HOME_REC, 2%HOME_REC, 0%g' app/src/main/java/com/github/tvbox/osc/base/App.java
-          sed -i 's%putDefault(HawkConfig.SEARCH_VIEW, 2);    // Text or Picture%putDefault(HawkConfig.SEARCH_VIEW, 2);    // 文字或图片\n      putDefault(HawkConfig.HOME_SHOW_SOURCE, true);    // 显示首页源\n%g' app/src/main/java/com/github/tvbox/osc/base/App.java
           sed -i 's%HomeActivity.getRes().getString(R.string.app_source));% "https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json");%g' app/src/main/java/com/github/tvbox/osc/api/ApiConfig.java     
            
       - name: Extra Modify
