@@ -12,8 +12,8 @@ jobs:
       matrix:
         include:
           - userName: wxwxwz
-            repoName: TVBox
-            branchName: master
+            repoName: Box
+            branchName: main
             appName: TBoxT
             osName: bb
    
