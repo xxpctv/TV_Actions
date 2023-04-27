@@ -58,7 +58,7 @@ jobs:
           cp -rf $GITHUB_WORKSPACE/DIY/png/背景5.png app/src/main/res/drawable/app_bg.png
           cp -rf $GITHUB_WORKSPACE/DIY/tbox/TBOXdialog_about.xml app/src/main/res/layout/dialog_about.xml
           sed -i 's%com.github.tvbox.osc%com.github.tvbox.osc.${{ matrix.osName }}%g' app/build.gradle
-          sed -i 's/MM月dd日/yyyy年 MM月 dd日/g' app/src/main/res/values-zh/strings.xml
+          # sed -i 's/MM月dd日/yyyy年 MM月 dd日/g' app/src/main/res/values-zh/strings.xml
           sed -i 's%TVBox%黑鸟影视%g' app/src/main/res/values-zh/strings.xml
           sed -i 's%dd MMM%dd MMM yyyy%g' app/src/main/res/values/strings.xml
           sed -i 's%TVBox%黑鸟影视%g' app/src/main/res/values/strings.xml
