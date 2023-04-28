@@ -29,4 +29,3 @@
 - [Baobei321/Box](https://github.com/Baobei321/Box)
 - [zxyadc/TVBoxOS-Q](https://github.com/zxyadc/TVBoxOS-Q)
 - [wxwxwz/TVBox](https://github.com/wxwxwz/TVBox)
-- [wenxin8/Box-1](https://github.com/wenxin8/Box-1)
