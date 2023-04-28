@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: dlgt7
-            repoName: takagen99Box
+          - userName: 52eraja
+            repoName: Box
             branchName: main
             appName: TBoxT
             osName: bb
@@ -56,10 +56,10 @@ jobs:
           cp -rf $GITHUB_WORKSPACE/DIY/qbox/epg_data.json app/src/main/assets/epg_data.json
           cp -rf $GITHUB_WORKSPACE/DIY/tbox/TBOXdialog_about.xml app/src/main/res/layout/dialog_about.xml
           cp -rf $GITHUB_WORKSPACE/DIY/png/背景4.png app/src/main/res/drawable/app_bg.png
-          sed -i 's%app_source"><%app_source">https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json<%g' app/src/main/res/values-zh/strings.xml
-          sed -i 's%app_source"><%app_source">https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json<%g' app/src/main/res/values/strings.xml
+          sed -i 's%https://v.bvip.one/bvip.json%app_source">https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json<%g' app/src/main/res/values-zh/strings.xml
+          sed -i 's%https://v.bvip.one/bvip.json%app_source">https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json<%g' app/src/main/res/values/strings.xml
           sed -i 's/MM月dd日/yyyy年 MM月 dd日/g' app/src/main/res/values-zh/strings.xml
-          sed -i 's%猫影视TV%TV盒子%g' app/src/main/res/values-zh/strings.xml
+          sed -i 's%布鲁斯剧库%TV盒子%g' app/src/main/res/values-zh/strings.xml
           sed -i 's%com.github.tvbox.osc.tk%com.github.tvbox.osc.${{ matrix.osName }}%g' app/build.gradle
           sed -i 's%HOME_REC, 2%HOME_REC, 0%g' app/src/main/java/com/github/tvbox/osc/base/App.java
           sed -i 's%putDefault(HawkConfig.SEARCH_VIEW, 2);    // Text or Picture%putDefault(HawkConfig.SEARCH_VIEW, 2);    // 文字或图片\n      putDefault(HawkConfig.HOME_SHOW_SOURCE, true);    // 显示首页源\n%g' app/src/main/java/com/github/tvbox/osc/base/App.java
