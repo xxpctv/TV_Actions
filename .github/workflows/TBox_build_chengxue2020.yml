@@ -56,7 +56,7 @@ jobs:
           cp -rf $GITHUB_WORKSPACE/DIY/qbox/epg_data.json app/src/main/assets/epg_data.json
           cp -rf $GITHUB_WORKSPACE/DIY/tbox/TBOXdialog_about.xml app/src/main/res/layout/dialog_about.xml
           sed -i 's/MM月dd日/yyyy年 MM月 dd日/g' app/src/main/res/values-zh/strings.xml
-          sed -i 's%TVBox%大仙TV%g' app/src/main/res/values-zh/strings.xml 
+          sed -i 's%TVBox%领主TV%g' app/src/main/res/values-zh/strings.xml 
           sed -i 's%app_source">%app_source">https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json%g' app/src/main/res/values-zh/strings.xml
           sed -i 's%app_source">%app_source">https://agit.ai/wwz09/ubuntu/raw/branch/master/main.json%g' app/src/main/res/values/strings.xml
           sed -i 's%com.github.tvbox.osc.tk%com.github.tvbox.osc.${{ matrix.osName }}%g' app/build.gradle
