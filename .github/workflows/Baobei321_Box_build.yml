@@ -1,4 +1,4 @@
-name: TKBox_build
+name: Baobei321_Box_build
 
 on:
 
@@ -14,7 +14,7 @@ jobs:
           - userName: Baobei321
             repoName: Box
             branchName: main
-            appName: TKBox
+            appName: Baobei321
             osName: t9
          
     steps:
