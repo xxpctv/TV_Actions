@@ -1,4 +1,4 @@
-name: ZBox_build
+name: 2728683891_Box_build
 
 on:
 
@@ -14,7 +14,7 @@ jobs:
           - userName: 2728683891
             repoName: Box
             branchName: main
-            appName: ZBox
+            appName: 2728683891
             osName: t11
          
     steps:
