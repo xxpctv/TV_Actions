@@ -1,4 +1,4 @@
-name: DSBox_build
+name: q21561390_Box_build
 
 on:
  
@@ -14,7 +14,7 @@ jobs:
           - userName: q215613905
             repoName: TVBoxOS
             branchName: main
-            appName: DSBox
+            appName: q21561390
             osName: q11
           
     steps:
