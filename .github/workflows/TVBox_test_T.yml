@@ -1,4 +1,4 @@
-name: TVBox_test_T
+name: 52eraja_Box_test_T
 
 on:
  
@@ -14,7 +14,7 @@ jobs:
           - userName: 52eraja
             repoName: Box
             branchName: main
-            appName: TBoxT
+            appName: 52eraja
             osName: bb
    
     steps:
