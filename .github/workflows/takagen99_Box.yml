@@ -1,4 +1,4 @@
-name: CSBox_test_T
+name: takagen99_Box
 
 on:
  
@@ -14,7 +14,7 @@ jobs:
           - userName: chengxue2020
             repoName: takagen99
             branchName: main
-            appName: CSBox
+            appName: takagen99
             osName: cs
    
     steps:
