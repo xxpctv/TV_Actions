@@ -1,4 +1,4 @@
-name: QBox_build
+name: Box_laodao77 QBox_build
 
 on:
  
@@ -12,7 +12,7 @@ jobs:
       matrix:
         include:
           - userName: dlgt7
-            repoName: TVBoxOS-J
+            repoName: Box_laodao77
             branchName: main
             appName: QBox
             osName: qb
