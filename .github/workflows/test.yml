@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: chengxue2020
-            repoName: takagen99
+          - userName: lppsuixn
+            repoName: Box
             branchName: main
     steps:
       - name: Checkout
